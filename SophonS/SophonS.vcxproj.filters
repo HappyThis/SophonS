@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\数据包分析功能">
+      <UniqueIdentifier>{7d0dcde8-ce61-444d-bea5-b85e5dcc0050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\数据包分析功能">
+      <UniqueIdentifier>{2c66d601-a445-40f6-932c-fc4512dcf080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\内核功能">
+      <UniqueIdentifier>{d7121951-bdcc-489f-9b95-746af1c6156e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\内核功能">
+      <UniqueIdentifier>{3bfbba23-3974-407c-b1fa-e4e8f8514037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\文件分发功能">
+      <UniqueIdentifier>{cd05cb51-31e2-498a-8c51-0691ab84a79a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\文件分发功能">
+      <UniqueIdentifier>{4fb34c64-bb2a-46d5-86a1-ba345748d1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\远程命令行">
+      <UniqueIdentifier>{ae5469ff-8703-4b42-85a7-36d7fed7be7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\远程命令行">
+      <UniqueIdentifier>{c9ea245f-f68e-4b11-bec4-7c84d913ac52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SophonS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasisFunction\Base.cpp">
+      <Filter>Source Files\内核功能</Filter>
+    </ClCompile>
+    <ClCompile Include="BasisFunction\RingBuffer.cpp">
+      <Filter>Source Files\内核功能</Filter>
+    </ClCompile>
+    <ClCompile Include="BasisFunction\ThreadOfRecv.cpp">
+      <Filter>Source Files\内核功能</Filter>
+    </ClCompile>
+    <ClCompile Include="Function_Analysis\Network.cpp">
+      <Filter>Source Files\数据包分析功能</Filter>
+    </ClCompile>
+    <ClCompile Include="Function_Analysis\ThreadOfNetwork.cpp">
+      <Filter>Source Files\数据包分析功能</Filter>
+    </ClCompile>
+    <ClCompile Include="Function_File\Document.cpp">
+      <Filter>Source Files\文件分发功能</Filter>
+    </ClCompile>
+    <ClCompile Include="Function_File\ThreadOfConnect.cpp">
+      <Filter>Source Files\文件分发功能</Filter>
+    </ClCompile>
+    <ClCompile Include="Function_File\ThreadOfListen.cpp">
+      <Filter>Source Files\文件分发功能</Filter>
+    </ClCompile>
+    <ClCompile Include="Function_Cmd\RemoteCommand.cpp">
+      <Filter>Source Files\远程命令行</Filter>
+    </ClCompile>
+    <ClCompile Include="BasisFunction\MainManager.cpp">
+      <Filter>Source Files\内核功能</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="SophonS.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BasisFunction\Base.h">
+      <Filter>Header Files\内核功能</Filter>
+    </QtMoc>
+    <QtMoc Include="BasisFunction\ThreadOfRecv.h">
+      <Filter>Header Files\内核功能</Filter>
+    </QtMoc>
+    <QtMoc Include="Function_Analysis\NetWork.h">
+      <Filter>Header Files\数据包分析功能</Filter>
+    </QtMoc>
+    <QtMoc Include="Function_Analysis\ThreadOfNetwork.h">
+      <Filter>Header Files\数据包分析功能</Filter>
+    </QtMoc>
+    <QtMoc Include="Function_File\Document.h">
+      <Filter>Header Files\文件分发功能</Filter>
+    </QtMoc>
+    <QtMoc Include="Function_File\ThreadOfConnect.h">
+      <Filter>Header Files\文件分发功能</Filter>
+    </QtMoc>
+    <QtMoc Include="Function_File\ThreadOfListen.h">
+      <Filter>Header Files\文件分发功能</Filter>
+    </QtMoc>
+    <QtMoc Include="Function_Cmd\RemoteCommand.h">
+      <Filter>Header Files\远程命令行</Filter>
+    </QtMoc>
+    <QtMoc Include="BasisFunction\MainManager.h">
+      <Filter>Header Files\内核功能</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="SophonS.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasisFunction\RingBuffer.h">
+      <Filter>Header Files\内核功能</Filter>
+    </ClInclude>
+    <ClInclude Include="BasisFunction\Token.h">
+      <Filter>Header Files\内核功能</Filter>
+    </ClInclude>
+    <ClInclude Include="Function_Analysis\Header.h">
+      <Filter>Header Files\数据包分析功能</Filter>
+    </ClInclude>
+    <ClInclude Include="Function_Analysis\IpContainerUnit.h">
+      <Filter>Header Files\数据包分析功能</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SophonS.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Ui\SophonS.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

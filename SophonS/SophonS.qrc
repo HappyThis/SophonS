@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/SophonS">
+        <file>Res/logo.ico</file>
+        <file>Res/rpcapd.ini</file>
+    </qresource>
+</RCC>
